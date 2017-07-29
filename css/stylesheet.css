@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin|Indie+Flower');
+/*This project, although simple, with nothing of my own in it except for sentence of my opinion, was still fun to make*/
+body {
+    font-family: 'Cabin', sans-serif;
+    color: #286AA8;
+/*This project took me a total of 4 hours to do. When I start practicing coding more, I'll get faster and more accurate.*/
+}
+body {
+    background-color: #FF853F;
+/*Coding is very fun.*/
+}
+header {
+    text-align: center;  
+/*All I have left to do to fix this project is take the bullet points away from one of my lists and do box model and display with my navigation bar and floating and positioning with the gingerbread men picture.*/
+}
+.art img {
+    width: 100%;
+    max-width: 500px;
+}
+/*In this project, the non requirements I've done are flexbox, a hyperlink and hover for my navigation bar, list-style-type, borders, and positioning text in an image so far.*/
+.multiplecolumns {
+    display: flex;
+    align-items: center;
+    flex-basis: 100%;
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+}
+
+.subtitles {
+    display: flex;
+    justify-content: center;
+}
+.art {
+    margin: 20px;
+}
+/*I want the writing of the gingerbread picture being an example put over the picture in blue and I want my navigation bar in boxes with borders and margins, centered across the top.*/
+
+nav li a:hover {
+    color: #FF853F;
+    background-color: #286AA8;
+    font-size: medium;
+}
+nav ul { 
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+   
+}
+nav li a {
+    display: block;
+    padding: 10px 100px;
+    text-decoration: none;
+    margin: 0;
+    text-align: center;
+}
+nav ul li {
+    border-top: thick
+}
+.navigationbar {
+    border-style: double;
+}
+header ul {
+    list-style-type: none;
+}
+.example {
+    color: #FFFFFF;
+}
+.gingerbread {
+    position: relative;
+}
+
+.example {
+    position: absolute;
+    left: 0;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+
