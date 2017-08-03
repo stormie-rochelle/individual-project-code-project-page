@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Cabin|Indie+Flower');
 /*This project, although simple, with nothing of my own in it except for sentence of my opinion, was still fun to make*/
+p {
+    min-width: 100px;
+    min-height: 10px;
+}
 body {
     font-family: 'Cabin', sans-serif;
     color: #286AA8;
@@ -13,19 +17,30 @@ header {
     text-align: center;  
 /*All I have left to do to fix this project is take the bullet points away from one of my lists and do box model and display with my navigation bar and floating and positioning with the gingerbread men picture.*/
 }
+/*I just redid the flexbox (wrap) to have the text on top of both pictures instead of in between.*/
 .art img {
-    width: 100%;
-    max-width: 500px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    justify-content: space-between;
+    margin: 25px;
+/*This is part of the responsive design I'm trying out, codecademy; sizing elements; lesson 4.
+    height: 300px;
+    width: 500px;*/
 }
 /*In this project, the non requirements I've done are flexbox, a hyperlink and hover for my navigation bar, list-style-type, borders, and positioning text in an image so far.*/
 .multiplecolumns {
     display: flex;
     align-items: center;
     flex-basis: 100%;
-    padding-top: 25px;
+    flex-wrap: wrap;
+    padding-top: 0px;
     padding-right: 25px;
     padding-bottom: 25px;
     padding-left: 25px;
+/*This is part of the responsive design I'm trying out, codecademy; sizing elements; lesson 4.
+    height: 50%;
+    width: 50%;*/
 }
 
 .subtitles {
@@ -52,7 +67,7 @@ nav ul {
 }
 nav li a {
     display: block;
-    padding: 10px 100px;
+    padding: 10px 70px;
     text-decoration: none;
     margin: 0;
     text-align: center;
@@ -71,6 +86,9 @@ header ul {
 }
 .gingerbread {
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .example {
@@ -81,4 +99,13 @@ header ul {
     text-align: center;
     font-size: 18px;
 }
-
+#example {
+    height: 50rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
